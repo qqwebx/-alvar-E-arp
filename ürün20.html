@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Sayfası</title>
+    <style>
+        /* Tasarımı ortalamak için body'ye flex verdik */
+        body {
+            display: flex; 
+            justify-content: center;
+            padding-top: 50px;
+            background-color: #c7ad5f;
+        }
+
+        .görsel1 {
+            display: flex; /* Alt alta dizilim için flex */
+            flex-direction: column; /* İçindekileri alt alta dizer */
+            align-items: center;    /* Hem görseli hem butonu merkeze sabitler */
+            width: 500px;           /* Görselinle aynı genişlik */
+        }
+
+        .görsel1 img {
+            width: 100%;            /* Kutunun genişliğine tam oturur */
+            border-radius: 20px;
+        }
+
+        .görsel1 a {
+            width: 100%;            /* Linki kutu genişliğine yayar */
+            margin-top: 15px;       /* Buton ile görsel arasına mesafe */
+        }
+
+        .görsel1 button {
+            width: 100%;            /* Butonu resmin genişliğiyle aynı yap */
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="görsel1">
+        <img src="1 (20).png">
+        <a href="https://wa.me/905522930159?text=Bu%20ürünle%20ilgileniyorum:%20https://google.com/butikler%20için%20demo/Ürün1.html" target="_blank">
+            <button>Whatsap</button>
+        </a>
+    </div>
+</body>
+</html>
